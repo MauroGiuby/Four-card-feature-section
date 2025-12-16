@@ -18,3 +18,11 @@
 --family: [Poppins](https://fonts.google.com/specimen/Poppins);
 --weights: 200, 400, 600;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
