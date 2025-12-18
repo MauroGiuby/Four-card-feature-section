@@ -35,7 +35,7 @@ body {
   margin: 1.5rem;
   background-color: var(--white);
   font-family: "Poppins", sans-serif;
-  color: var(--neutral-400);
+  color: var(--grey-400);
   font-size: 15px;
   min-height: 100vh;
   display: grid;
@@ -88,7 +88,7 @@ article {
   color: var(--grey-400);
 }
 
-article, h2 {
+article h2 {
   color: var(--grey-500);
 }
 
@@ -146,3 +146,6 @@ article, h2 {
     align-self: center; /* centrata verticalmente nella sua area */
   }
 }
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
