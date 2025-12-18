@@ -15,8 +15,10 @@
 --font-size: 15px;
 
 /* ### Fonts */
---family: [Poppins](https://fonts.google.com/specimen/Poppins);
---weights: 200, 400, 600;
+--family: 'Poppins', sans-serif;
+--font-weight-light: 200;
+--font-weight-normal: 400;
+--font-weight-bold: 600;
 }
 
 *,
