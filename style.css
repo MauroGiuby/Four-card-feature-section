@@ -46,18 +46,22 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* ---header--- */
+
 .title {
   max-width: 500px;
   text-align: center;
   padding: 0rem 1rem;
   margin-bottom: 1rem;
+  color: var(--grey-400);
 }
 
 .title h1 {
-  overflow-wrap: break-word;
-  text-wrap: balance;
+  overflow-wrap: break-word; 
+  /* forza la parola a spezzarsi se troppo lunga, evitando overflow fuori dal box */
+  text-wrap: balance; 
+  /* distribuisce il testo su più righe in modo equilibrato, migliorando la leggibilità */
   font-weight: var(--font-weight-light);
-  color: var(--grey-400);
   font-size: 30px;
 }
 
