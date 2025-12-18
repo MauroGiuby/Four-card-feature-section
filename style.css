@@ -85,6 +85,11 @@ article {
   border-radius: 0.5rem;
   padding: 2rem;
   box-shadow: 1px 6px 12px 0px rgba(0, 0, 0, 0.2);
+  color: var(--grey-400);
+}
+
+article, h2 {
+  color: var(--grey-500);
 }
 
 .card-supervisor {
