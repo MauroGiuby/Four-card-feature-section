@@ -31,7 +31,7 @@
 
 body {
   margin: 1.5rem;
-  background-color: var(--neutral-100);
+  background-color: var(--white);
   font-family: "Poppins", sans-serif;
   color: var(--neutral-400);
   font-size: 15px;
@@ -41,8 +41,24 @@ body {
   place-items: center;
   gap: 3.5rem;
   line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
 }
 
 .title {
+  max-width: 500px;
+  text-align: center;
+  padding: 0rem 1rem;
+}
+
+.title h1 {
+  overflow-wrap: break-word;
+  text-wrap: balance;
+  font-weight: var(--font-weight-light;
+  color: var(--grey-400);
+  margin-bottom: 1rem;
+  font-size: clamp(1.5rem, 1rem + 1.333vw, 2rem);
+}
+
+.title-powered-by-technology {
   
 }
