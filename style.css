@@ -74,3 +74,37 @@ body {
 }
 
 /* ---main--- */
+
+.main-grid {
+  display: grid;
+  gap: 2rem;
+  max-width: 450px;
+}
+
+article {
+  border-radius: 0.5rem;
+  padding: 2rem;
+  box-shadow: 1px 6px 12px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card-supervisor {
+  border-top: 4px solid var(--cyan);
+}
+
+.card-team-builder {
+  border-top: 4px solid var(--red);
+}
+
+.card-karma {
+  border-top: 4px solid var(--orange);
+}
+
+.card-calculator {
+  border-top: 4px solid var(--blue);
+}
+
+.card-image {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2rem;
+}
