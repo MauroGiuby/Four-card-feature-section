@@ -62,10 +62,11 @@ body {
 
 .title h1 {
   font-weight: var(--font-weight-light);
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .title span {
+  display: block; /* forza l'andata a capo */
   font-weight: var(--font-weight-bold);
 }
 
